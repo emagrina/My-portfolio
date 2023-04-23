@@ -1,26 +1,26 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import { FiGithub, FiLinkedin } from "react-icons/fi";
+import {Inter} from 'next/font/google'
+import {FiGithub, FiLinkedin} from "react-icons/fi";
 import Picture from './../assets/img/ernest_img.jpeg'
-import { IoDocumentTextOutline } from "react-icons/io5";
+import {IoDocumentTextOutline} from "react-icons/io5";
 import Footer from "@/components/Footer";
 
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({subsets: ['latin']})
 
 export default function HomePage() {
-  return (
-      <div>
-        <div className="flex md:h-screen max-w-6xl mx-auto px-4 sm:px-6 md:-mt-20 ">
-            <div className="m-auto py-12 md:py-20 ">
-                <div className="text-center pb-10 md:pb-16 ">
-                    <Image
-                        src={Picture}
-                        alt="Picture of the author"
-                        width={144}
-                        height={144}
-                        className="mx-auto m-8 rounded-full "
-                    />
+    return (
+        <div>
+            <div className="flex md:h-screen max-w-6xl mx-auto px-4 sm:px-6 md:-mt-20 ">
+                <div className="m-auto py-12 md:py-20 ">
+                    <div className="text-center pb-10 md:pb-16 ">
+                        <Image
+                            src={Picture}
+                            alt="Picture of the author"
+                            width={144}
+                            height={144}
+                            className="mx-auto m-8 rounded-full "
+                        />
                         <h1 className="text-5xl md:text-[4rem] font-bold tracking-tighter mb-4 font-heading bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text background-animate">
                             Ernest Magriñá
                         </h1>
@@ -57,10 +57,10 @@ export default function HomePage() {
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
+            <Footer/>
         </div>
-    <Footer />
-    </div>
-  )
+    )
 }
