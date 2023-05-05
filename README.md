@@ -1,6 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+<a title="LanguagesUsed" target="_blank" href="#">
+<img alt="Icons" src="https://skillicons.dev/icons?i=next,ts,tailwind,vercel&theme=light">
+</a>
 
 First, run the development server:
 
